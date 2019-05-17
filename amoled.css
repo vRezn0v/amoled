@@ -1,3 +1,6 @@
+.bda-dark #bda-qem,
+.bda-dark #bda-qem-favourite-container,
+.bda-dark #bda-qem-twitch-container,
 .da-actions .da-iconsWrapper,
 .da-appMount,
 .da-attachPopout,
@@ -14,6 +17,8 @@
 .da-inner>.da-modal,
 .da-jumpToPresentBar,
 .da-layout .da-wrapper,
+.da-markup code,
+.da-markup pre,
 .da-menu,
 .da-messagesPopoutWrap>.da-body,
 .da-messagesPopoutWrap>.da-footer,
@@ -153,6 +158,7 @@ form>.da-typing {
     background-color: transparent !important;
 }
 
+.bda-dark #bda-qem button,
 .da-children::after,
 .da-option::after,
 .da-sectionTag .da-selected,
@@ -201,6 +207,8 @@ form>.da-typing {
 .da-inputDefault,
 .da-invite,
 .da-keybindShortcut span,
+.da-markup code,
+.da-markup pre,
 .da-messageGroupWrapper,
 .da-multiInputLast::before,
 .da-overridePlaceholder,
@@ -230,6 +238,8 @@ form>.da-typing {
     border-color: transparent !important;
 }
 
+.bda-dark #bda-qem,
+.bda-dark #bda-qem button,
 .da-embedInner,
 .da-embedWrapper,
 .da-uploadModal .da-inner .da-image,
@@ -237,6 +247,7 @@ form>.da-typing {
     border: none !important;
 }
 
+.bda-dark #bda-qem button,
 .da-actionButtons,
 .da-autocompleteArrow,
 .da-autocompleteShadow,
@@ -329,7 +340,16 @@ form>.da-typing {
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece,
 .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar,
 .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track,
-.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-traack-piece {
+.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece,
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar,
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track,
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece,
+.bda-dark #pubs-container .scroller::-webkit-scrollbar,
+.bda-dark #pubs-container .scroller::-webkit-scrollbar-track,
+.bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece,
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar,
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track,
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece {
     background-color: transparent !important;
     border-color: transparent !important;
 }
@@ -340,15 +360,18 @@ form>.da-typing {
     background-color: #202225 !important;
 }
 
-.da-scroller::-webkit-scrollbar-thumb {
+.da-scroller::-webkit-scrollbar-thumb,
+.da-scrollerWrap::-webkit-scrollbar-thumb {
     border-color: transparent !important;
 }
 
-.da-scroller::-webkit-scrollbar-track {
+.da-scroller::-webkit-scrollbar-track,
+.da-scrollerWrap::-webkit-scrollbar-track {
     background-color: transparent !important;
 }
 
-.da-scroller::-webkit-scrollbar-track-piece {
+.da-scroller::-webkit-scrollbar-track-piece,
+.da-scrollerWrap::-webkit-scrollbar-track-piece {
     background-color: transparent !important;
     border-color: transparent !important;
 }
