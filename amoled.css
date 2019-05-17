@@ -401,7 +401,9 @@ form>.da-typing {
 }
 
 .da-scroller::-webkit-scrollbar-thumb,
-.da-scrollerWrap::-webkit-scrollbar-thumb {
+.da-scrollerWrap::-webkit-scrollbar-thumb,
+.da-emojiPicker .da-scrollerWrap .da-scroller::-webkit-scrollbar-thumb {
+    background-color: #202225 !important;
     border-color: transparent !important;
 }
 
