@@ -59,6 +59,11 @@ form.da-modal {
     background: #000 !important;
 }
 
+.da-guildIcon,
+.da-guildIconExpired {
+    background-color: #000 !important;
+}
+
 .da-accountBtnInner,
 .da-accountBtnInner:hover,
 .da-actionButtons,
