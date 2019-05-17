@@ -282,6 +282,7 @@ form>.da-typing {
     background-color: #000 !important;
 }
 
+.da-containerDefault .da-unread,
 .da-pill .da-item {
     background-color: #fff !important;
 }
