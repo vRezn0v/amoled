@@ -155,6 +155,9 @@ form.da-modal {
 .da-separator,
 .da-sidebarRegion,
 .da-slide .da-action,
+.da-tabBar .da-primary,
+.da-tabBar .da-primary:hover,
+.da-tabBar .da-primarySelected
 .da-tier1Banner,
 .da-tiles,
 .da-topSectionNormal .da-headerFill,
@@ -174,6 +177,8 @@ form>.da-typing {
 
 .bda-dark #bda-qem button,
 .da-children::after,
+.da-friendTableAddHeader,
+.da-friendTableAddHeader .da-wrapper,
 .da-listRow:hover,
 .da-option::after,
 .da-or,
@@ -321,8 +326,14 @@ form>.da-typing {
 }
 
 .da-newMessagesBar button:last-child,
-.da-or {
+.da-or,
+.da-tabBar .da-primary:hover,
+.da-tabBar .da-primarySelected {
     color: #fff !important;
+}
+
+.da-tabBar .da-primary {
+    color: inherit !important;
 }
 
 .da-total {
@@ -381,7 +392,10 @@ form>.da-typing {
 .bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece,
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar,
 .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track,
-.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece {
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece,
+.da-emojiPicker .da-scrollerWrap .da-scroller::-webkit-scrollbar,
+.da-emojiPicker .da-scrollerWrap .da-scroller::-webkit-scrollbar-track,
+.da-emojiPicker .da-scrollerWrap .da-scroller::-webkit-scrollbar-track-piece {
     background-color: transparent !important;
     border-color: transparent !important;
 }
