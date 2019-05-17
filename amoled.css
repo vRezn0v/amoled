@@ -9,6 +9,7 @@
 .da-backgroundBlurOverlay,
 .da-card,
 .da-category,
+.da-content form .da-wrapper,
 .da-contextMenu,
 .da-emojiPicker,
 .da-fullscreenOnMobile,
@@ -23,6 +24,7 @@
 .da-messagesPopoutWrap>.da-body,
 .da-messagesPopoutWrap>.da-footer,
 .da-messagesPopoutWrap>.da-header,
+.da-modal .da-contentWrapper,
 .da-modal>.da-body,
 .da-modal>.da-footer,
 .da-modal>.da-inner>.da-root>.da-body,
@@ -119,7 +121,9 @@ form.da-modal {
 .da-message,
 .da-messageGroupWrapper,
 .da-messagesWrapper,
+.da-modal .da-contentWrapper .da-pill,
 .da-option,
+.da-pageWrapper,
 .da-paymentPane>.da-paginator,
 .da-paymentPane,
 .da-paymentRow,
@@ -299,6 +303,10 @@ form>.da-typing {
 .da-userPopout,
 .da-wrapper {
     box-shadow: none !important;
+}
+
+.da-pageWrapper .da-bg {
+    opacity: 0 !important;
 }
 
 .da-newMessagesBar,
