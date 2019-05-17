@@ -54,6 +54,8 @@ form.da-modal {
     background: #000 !important;
 }
 
+.da-accountBtnInner,
+.da-accountBtnInner:hover,
 .da-actionButtons,
 .da-activity,
 .da-activityFeed,
@@ -177,6 +179,8 @@ form>.da-typing {
 
 .bda-header,
 .bda-footer,
+.da-accountBtnInner,
+.da-accountBtnInner:hover,
 .da-actions .da-iconsWrapper,
 .da-attachment,
 .da-auditLog,
