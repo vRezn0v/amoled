@@ -11,6 +11,7 @@
 .da-category,
 .da-content form .da-wrapper,
 .da-contextMenu,
+.da-datePicker,
 .da-emojiPicker,
 .da-fullscreenOnMobile,
 .da-iconBadge,
@@ -55,7 +56,8 @@
 .da-userPopout>.da-footer,
 .da-userPopout>.da-header:not(.da-headerPlaying):not(.da-headerStreaming):not(.da-headerSpotify),
 .da-userPopout,
-form.da-modal {
+form.da-modal,
+.react-datepicker {
     background: #000 !important;
 }
 
@@ -69,6 +71,7 @@ form.da-modal {
 .da-actionButtons,
 .da-activity,
 .da-activityFeed,
+.da-akaBadge,
 .da-app,
 .da-applicationStore,
 .da-attachButtonDivider,
@@ -103,6 +106,7 @@ form.da-modal {
 .da-gameLibrary,
 .da-guildSeparator,
 .da-hasMore button,
+.da-hintValue,
 .da-iconWrapper,
 .da-incomingCallInner .da-actionButtons button:last-child,
 .da-incomingCallInner .da-actionButtons button:last-child:hover,
@@ -173,6 +177,12 @@ form.da-modal {
 .da-userInfoViewing,
 .da-userSelectNone,
 .da-video,
+.react-datepicker__current-month,
+.react-datepicker__day,
+.react-datepicker__day:hover,
+.react-datepicker__day--disabled,
+.react-datepicker__day--outside-month,
+.react-datepicker__header,
 .ui-switch-item,
 .ui-tab-bar-separator,
 #bd-settingspane-container,
@@ -221,6 +231,7 @@ form>.da-typing {
 .da-connectedAccount,
 .da-container,
 .da-contextMenu .da-itemGroup,
+.da-datePickerHint,
 .da-divider,
 .da-dividerContent::before,
 .da-dividerContent::after,
@@ -266,10 +277,16 @@ form>.da-typing {
 .da-uploadModal .da-inner,
 .da-userInfoSection,
 .da-userInfoViewing,
+.da-userSettingsAccount .da-input,
 .pagination-button,
+.react-datepicker__header,
+.react-datepicker__navigation,
+.react-datepicker__navigation:hover,
+.react-datepicker__week .react-datepicker__day,
+.react-datepicker__week:last-of-type .react-datepicker__day,
+.react-datepicker__week .react-datepicker__day:last-of-type,
 .ui-form-text,
-.ui-switch-item,
-.da-userSettingsAccount .da-input {
+.ui-switch-item {
     border-color: transparent !important;
 }
 
