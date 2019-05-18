@@ -66,6 +66,10 @@ form.da-modal,
     background-color: #000 !important;
 }
 
+.ace_gutter,
+.ace_gutter-active-line,
+.ace_marker-layer .ace_active-line,
+.btn-close:hover,
 .da-accountBtnInner,
 .da-accountBtnInner:hover,
 .da-actionButtons,
@@ -185,7 +189,16 @@ form.da-modal,
 .react-datepicker__day--outside-month,
 .react-datepicker__header,
 .ui-switch-item,
+.ui-tab-bar-item.selected,
+.ui-tab-bar-item:hover,
 .ui-tab-bar-separator,
+#bd-customcss-attach-controls,
+#bd-customcss-detach-container,
+#bd-customcss-detach-container #bd-customcss-attach-controls,
+#bd-customcss-detach-controls-button button,
+#bd-customcss-detach-controls-button button:hover,
+#bd-customcss-editor,
+#bd-customcss-editor-detached,
 #bd-settingspane-container,
 form>.da-typing {
     background-color: transparent !important;
@@ -213,6 +226,7 @@ form>.da-typing {
 
 .bda-header,
 .bda-footer,
+.btn-close,
 .da-accountBtnInner,
 .da-accountBtnInner:hover,
 .da-actions .da-iconsWrapper,
@@ -287,7 +301,8 @@ form>.da-typing {
 .react-datepicker__week:last-of-type .react-datepicker__day,
 .react-datepicker__week .react-datepicker__day:last-of-type,
 .ui-form-text,
-.ui-switch-item {
+.ui-switch-item,
+#bd-customcss-detach-controls-button button {
     border-color: transparent !important;
 }
 
@@ -330,7 +345,8 @@ form>.da-typing {
 .da-tiles,
 .da-uploadModal .da-inner .da-image,
 .da-userPopout,
-.da-wrapper {
+.da-wrapper,
+#bd-customcss-attach-controls {
     box-shadow: none !important;
 }
 
