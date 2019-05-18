@@ -110,6 +110,7 @@ form.da-modal,
 .da-gameLibrary,
 .da-guildSeparator,
 .da-hasMore button,
+.da-hasValue button,
 .da-hintValue,
 .da-iconWrapper,
 .da-incomingCallInner .da-actionButtons button:last-child,
@@ -367,6 +368,7 @@ form>.da-typing {
     background-color: #fff !important;
 }
 
+.da-hasValue button,
 .da-newMessagesBar button:last-child,
 .da-or,
 .da-tabBar .da-primary:hover,
