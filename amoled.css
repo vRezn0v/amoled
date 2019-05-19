@@ -136,7 +136,8 @@ form.da-modal,
 .da-layers,
 .da-members,
 .da-message,
-.da-message>.da-container>.da-markup>.da-wrapper,
+.da-message .da-container .da-markup .da-wrapper,
+.da-message .da-container .da-markup .da-wrapper .mention,
 .da-messageGroupWrapper,
 .da-messagesWrapper,
 .da-modal .da-contentWrapper .da-pill,
@@ -428,6 +429,10 @@ form>.da-typing {
 
 .da-notches {
     background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='%23000'><path fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 0 0-2 2v12a2 2 0 1 0 4 0V4a2 2 0 0 0-2-2z'/></svg>") !important;
+}
+
+.da-message .da-container .da-markup .da-wrapper .mention {
+    cursor: default;
 }
 
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar,
